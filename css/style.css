@@ -1,0 +1,94 @@
+/*normalize css start*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/*normalize css end*/
+/*common css start*/
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common css end*/
+
+/*header start*/
+header {
+	padding: 50px 0;
+}
+.container {
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo {
+	width: 12%;
+	float: left;
+}
+.logo img {
+	width: 100%;
+}
+.menu {
+	width: 65%;
+	float: right;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	float: left;
+	list-style: none;
+}
+.menu ul li a {
+	margin: 6px 55px;
+	padding: 0 1px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .33s;
+}
+.menu ul li:last-child a {
+	margin-right: 0;
+}
+.menu ul li a:hover {
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+/*banner start*/
+.banner {
+	margin-bottom: 50px;
+}
+.banner-img {}
+.banner-img img {
+	width: 100%;
+}
+/*banner end*/
+
+/*about start*/
+.about{
+	margin-bottom: 50px;
+}
+.container2{
+	margin: 0 auto;
+	width: 75%;
+}
+.a_p1{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.a_h1{
+	font-size: 30px;
+    font-weight: 400;
+    padding: 15px 0 30px;
+}
+.a_p2{
+	line-height: 25px;
+}
+.a_com{
+	padding: 50px 0 30px;
+}
+/*about end*/
